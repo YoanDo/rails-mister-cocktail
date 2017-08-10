@@ -1,0 +1,26 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="bg">
+  <div class="title">
+    <h1>The club</h1>
+  </div>
+</div>
+
+
+<div class="container-menu">
+  <div class="row">
+  <% @cocktails.each do |c|%>
+    <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://unsplash.it/300/200?');">
+            <div class="card-category">
+            <!-- inserer édit si besoin -->
+            </div>
+            <div class="card-description">
+              <h2><%= c.name %></h2>
+              <%= link_to 'See the recipe', cocktail_path(c) %>
+            </div>
+        <a class="card-link" href="#" ></a>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="show">
+  <h1><%= @cocktail.name %></h1>
+  <p>
+    <%= link_to "Add ingredient", new_cocktail_dose_path(@cocktail) %>
+  </p>
+<ul>
+  <li><%= link_to 'delete', cocktail_path(@cocktail), method: :delete, :confirm => 'Are you sure?' %></li>
+  <li><%= link_to "back", cocktails_path %></li>
+  <li><%= link_to "edit", edit_cocktail_path(@cocktail) %></li>
+</ul>
+</div>

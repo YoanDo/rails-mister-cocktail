@@ -13,3 +13,54 @@
 @import "layouts/index";
 @import "components/index";
 @import "pages/index";
+
+
+body {
+  background: white;
+  // background: linear-gradient(135deg, #FFA17F, #00223E);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container-menu {
+  margin: 5% 5%;
+}
+
+.card {
+  color: white;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+
+
+.card-description h4 {
+  color:white;
+}
+
+
+#bg {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+  background-image: url("https://static.pexels.com/photos/5373/black-and-white-alcohol-bar-barkeeper.jpg");
+  height: 85vh;
+  background-size: 100%;
+  margin-bottom: 5%
+}
+
+.title {
+  // justify-content: center;
+  // align-items: center;
+  margin-top: 20%;
+  text-align: center;
+  vertical-align: middle;
+}
+.title h1 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 3px;
+  color: yellow;
+}
