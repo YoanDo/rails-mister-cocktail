@@ -55,7 +55,11 @@ gem "simple_form"
 gem "autoprefixer-rails"
 
 # Gemfile
-ruby '2.3.3'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'simple_form'
+gem 'autoprefixer-rails'
+gem 'jquery-rails'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
