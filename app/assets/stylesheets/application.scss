@@ -45,17 +45,25 @@ a:hover {
 
 
 #bg {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
-  background-image: url("https://static.pexels.com/photos/5373/black-and-white-alcohol-bar-barkeeper.jpg");
-  height: 85vh;
+  background:
+  // linear-gradient(
+  //     rgba(255, 255, 255, 0.4),
+  //     rgba(255, 255, 255, 0.0)
+  //   ),
+    url("https://images.unsplash.com/photo-1470752354724-60a1d2b1907f?dpr=2&auto=format&fit=crop&w=1500&h=1500&q=80&cs=tinysrgb&crop=");
+  height: 70vh;
   background-size: 100%;
   margin-bottom: 5%
+}
+
+.logo {
+  height: 200px;
 }
 
 .title {
   // justify-content: center;
   // align-items: center;
-  margin-top: 20%;
+  margin-top: 7%;
   text-align: center;
   vertical-align: middle;
 }
@@ -63,4 +71,11 @@ a:hover {
   font-family: 'Abril Fatface', cursive;
   letter-spacing: 3px;
   color: yellow;
+}
+
+.nav-title {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  color:#FF7257;
+  margin: auto;
 }
